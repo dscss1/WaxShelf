@@ -1,0 +1,31 @@
+# WaxShelf Configuration
+config-version: 1.1
+
+# Enable or disable waxing mechanics
+waxing:
+  # Allow players to wax shelves to lock interactions
+  shelves: true
+  # Allow players to wax chiseled bookshelves (Minecraft 1.20+)
+  chiseled-bookshelves: true
+  # Allow players to wax item frames to lock rotation/item
+  frames: true
+
+# Enable or disable specific mechanics for Item Frames
+mechanics:
+  # Allow players to make item frames invisible by using Shears
+  shears-invisible-frames: true
+
+  # Allow players to make item frames visible again by using Leather
+  leather-visible-frames: true
+
+# Check for updates on startup
+update-checker: true
+
+messages:
+  invisible-item-frame: "&fInvisible Item Frame"
+  waxed: "&6This item is waxed!"
+  wax-on: "&aWax applied!"
+  wax-off: "&eWax removed!"
+  no-permission: "&cYou don't have permission to do this!"
+  reload: "&aWaxShelf config reloaded!"
+  update-available: "&eA new version of WaxShelf is available: &b%version%&e! Download it here: &b%url%"

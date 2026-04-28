@@ -1,0 +1,31 @@
+name: WaxShelf
+version: '1.1.0'
+main: ua.dscss2.waxshelf.WaxShelf
+api-version: '1.21'
+folia-supported: true
+description: A plugin to wax shelves and item frames, and make frames invisible.
+
+authors: [ dscss2 ]
+
+commands:
+  waxshelf:
+    description: Main WaxShelf command
+    usage: /waxshelf reload
+    permission: waxshelf.admin
+
+permissions:
+  waxshelf.admin:
+    description: Allows reloading the plugin
+    default: op
+  waxshelf.wax:
+    description: Allows waxing shelves and item frames
+    default: true
+  waxshelf.unwax:
+    description: Allows unwaxing shelves and item frames
+    default: true
+  waxshelf.invisible:
+    description: Allows making item frames invisible/visible
+    default: true
+  waxshelf.bypass:
+    description: Allows interacting with waxed items
+    default: op
